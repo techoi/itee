@@ -31,11 +31,13 @@ export default function Home() {
           >
             itee
           </div>
-          <img
-            src="/instagram-logo-white.png"
-            alt="instagram"
-            className={css({ height: "24px !important" })}
-          />
+          <Link href="https://instagram.com/itee.official">
+            <img
+              src="/instagram-logo-white.png"
+              alt="instagram"
+              className={css({ height: "24px !important" })}
+            />
+          </Link>
         </div>
         <div
           className={css({
