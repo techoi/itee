@@ -46,7 +46,8 @@ export default function Home() {
             className={css({
               color: "white",
               fontWeight: "bold",
-              fontSize: 90,
+              fontSize: 40,
+              md: { fontSize: 90 },
               lineHeight: 1,
             })}
           >
@@ -56,8 +57,8 @@ export default function Home() {
               className={css({
                 display: "flex",
                 position: "relative",
-                overflow: "hidden",
-                height: 90,
+                height: 40,
+                md: { height: 90 },
                 width: "80vw",
               })}
             >
@@ -67,8 +68,21 @@ export default function Home() {
                   position: "relative",
                   marginLeft: 40,
                   width: "100%",
+                  overflow: "hidden",
                 })}
               >
+                {/* <div
+                  className={css({
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: 10,
+                    filter: "blur(10px)",
+                    backgroundColor: "rgba(255, 255, 255, 0.5)",
+                    zIndex: 55,
+                  })}
+                /> */}
                 <div
                   className={css({
                     position: "absolute",
@@ -89,6 +103,18 @@ export default function Home() {
                   <div>Data Analyst</div>
                   <div>Product Owner</div>
                 </div>
+                {/* <div
+                  className={css({
+                    position: "absolute",
+                    bottom: 0,
+                    left: 0,
+                    width: "100%",
+                    height: 10,
+                    filter: "blur(10px)",
+                    backgroundColor: "rgba(255, 255, 255, 0.5)",
+                    zIndex: 55,
+                  })}
+                /> */}
               </div>
             </div>
           </div>
@@ -104,12 +130,22 @@ export default function Home() {
         })}
       >
         <div
-          className={css({ fontWeight: "bold", fontSize: 24, lineHeight: 1 })}
+          className={css({
+            fontWeight: "bold",
+            fontSize: 20,
+            md: { fontSize: 24 },
+            lineHeight: 1,
+          })}
         >
           2023 First Collection Pre-Order
         </div>
         <div
-          className={css({ fontWeight: "bold", fontSize: 48, lineHeight: 1.2 })}
+          className={css({
+            fontWeight: "bold",
+            fontSize: 32,
+            md: { fontSize: 48 },
+            lineHeight: 1.2,
+          })}
         >
           Coming soon
         </div>
@@ -123,7 +159,14 @@ export default function Home() {
         >
           출시일에 남겨주신 연락처로 알려드릴게요
         </div>
-        <Link href="https://forms.gle/9drgxxUBPcttQ4kX7">
+        <Link
+          href="https://forms.gle/9drgxxUBPcttQ4kX7"
+          className={css({
+            visibility: "hidden",
+            height: 0,
+            md: { visibility: "visible", height: "auto" },
+          })}
+        >
           <div
             className={css({
               padding: "16px 36px",
@@ -262,12 +305,22 @@ export default function Home() {
         })}
       >
         <div
-          className={css({ fontWeight: "bold", fontSize: 24, lineHeight: 1 })}
+          className={css({
+            fontWeight: "bold",
+            fontSize: 20,
+            md: { fontSize: 24 },
+            lineHeight: 1,
+          })}
         >
           2023 First Collection Pre-Order
         </div>
         <div
-          className={css({ fontWeight: "bold", fontSize: 48, lineHeight: 1.2 })}
+          className={css({
+            fontWeight: "bold",
+            fontSize: 32,
+            md: { fontSize: 48 },
+            lineHeight: 1.2,
+          })}
         >
           Coming soon
         </div>
@@ -281,7 +334,14 @@ export default function Home() {
         >
           출시일에 남겨주신 연락처로 알려드릴게요
         </div>
-        <Link href="https://forms.gle/9drgxxUBPcttQ4kX7">
+        <Link
+          href="https://forms.gle/9drgxxUBPcttQ4kX7"
+          className={css({
+            visibility: "hidden",
+            height: 0,
+            md: { visibility: "visible", height: "auto" },
+          })}
+        >
           <div
             className={css({
               padding: "16px 36px",
@@ -300,14 +360,17 @@ export default function Home() {
         className={css({
           display: "flex",
           width: "100%",
-          marginBottom: 40,
+          marginBottom: 100,
           justifyContent: "center",
         })}
       >
         <div
           className={css({
             display: "grid",
-            gridTemplateColumns: "1fr 1fr 1fr",
+            gridTemplateRows: "1fr 1fr 1fr",
+            md: {
+              gridTemplateColumns: "1fr 1fr 1fr",
+            },
           })}
         >
           <div className={css({ textAlign: "center" })}>© 2023 itee co.</div>
@@ -317,6 +380,32 @@ export default function Home() {
           <div className={css({ textAlign: "center" })}>
             instagram: itee.official
           </div>
+        </div>
+      </div>
+      <div
+        className={css({
+          position: "fixed",
+          bottom: 0,
+          padding: 24,
+          width: "100%",
+          visibility: "visible",
+          height: "auto",
+          md: { visibility: "none", height: 0 },
+          zIndex: 99,
+        })}
+      >
+        <div
+          className={css({
+            padding: "16px 36px",
+            borderRadius: "26px",
+            backgroundColor: "black",
+            color: "white",
+            fontSize: 17,
+            fontWeight: "bold",
+            textAlign: "center",
+          })}
+        >
+          <div>사전 주문하기</div>
         </div>
       </div>
     </main>

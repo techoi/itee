@@ -7,7 +7,7 @@ export type BreakpointToken = "sm" | "md" | "lg" | "xl" | "2xl"
 
 export type SizeToken = "breakpoint-sm" | "breakpoint-md" | "breakpoint-lg" | "breakpoint-xl" | "breakpoint-2xl"
 
-export type AnimationName = "spin" | "ping" | "pulse" | "bounce" | "bannermove" | "rolling"
+export type AnimationName = "spin" | "ping" | "pulse" | "bounce" | "bannermove" | "rolling" | "fadeout"
 
 export type Tokens = {
 		fonts: FontToken
