@@ -14,7 +14,7 @@ export default defineConfig({
   theme: {
     extend: {
       keyframes: {
-        bannermove: {
+        bannerLoop: {
           "0%": { transform: "translate(0,0)" },
           "100%": { transform: "translate(-2880px,0)" },
         },

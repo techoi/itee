@@ -4,3 +4,19 @@
 :root {
   --font-helvetica: "Helvetica Neue", sans-serif;
 }
+
+.fade-in {
+  opcaity: 1;
+  transition: opacity 1s linear;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-sanspace: nowrap;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s linear;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-sanspace: nowrap;
+}

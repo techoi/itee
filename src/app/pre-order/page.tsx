@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { css } from "../../../styled-system/css";
+import TitleLoop from "./components/TitleLoop";
 
 const BANNERS = [
   { image: "/itee/ny-403-2.jpg", title: "ITEE IN NEWYORK CITY" },
@@ -57,65 +58,14 @@ export default function Home() {
               className={css({
                 display: "flex",
                 position: "relative",
-                height: 40,
-                md: { height: 90 },
+                height: 50,
+                md: { height: 100 },
                 width: "80vw",
               })}
             >
               For
-              <div
-                className={css({
-                  position: "relative",
-                  marginLeft: 40,
-                  width: "100%",
-                  overflow: "hidden",
-                })}
-              >
-                {/* <div
-                  className={css({
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: 10,
-                    filter: "blur(10px)",
-                    backgroundColor: "rgba(255, 255, 255, 0.5)",
-                    zIndex: 55,
-                  })}
-                /> */}
-                <div
-                  className={css({
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    whiteSpace: "nowrap",
-                    animation: "rolling 8s linear infinite",
-                    display: "flex",
-                    flexDirection: "column",
-                  })}
-                >
-                  <div>UX Designer</div>
-                  <div>Developer</div>
-                  <div>Data Analyst</div>
-                  <div>Product Owner</div>
-                  <div>UX Designer</div>
-                  <div>Developer</div>
-                  <div>Data Analyst</div>
-                  <div>Product Owner</div>
-                </div>
-                {/* <div
-                  className={css({
-                    position: "absolute",
-                    bottom: 0,
-                    left: 0,
-                    width: "100%",
-                    height: 10,
-                    filter: "blur(10px)",
-                    backgroundColor: "rgba(255, 255, 255, 0.5)",
-                    zIndex: 55,
-                  })}
-                /> */}
-              </div>
+              <div className={css({ width: 16, md: { width: 24 } })} />
+              <TitleLoop />
             </div>
           </div>
         </div>
@@ -235,7 +185,7 @@ export default function Home() {
             left: 0,
             whiteSpace: "nowrap",
             height: 380,
-            animation: "bannermove 30s linear infinite",
+            animation: "bannerLoop 30s linear infinite",
             display: "flex",
           })}
         >
