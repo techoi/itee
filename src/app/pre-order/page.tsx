@@ -145,7 +145,7 @@ export default function Home() {
             alignItems: "center",
           })}
         >
-          <img src="/tee-403.jpg" alt="tee-403" width={250} />
+          <img src="/tee-403.png" alt="tee-403" width={250} />
           <div className={css({ fontSize: 15 })}>403 hoodie black</div>
           <div className={css({ fontSize: 24, fontWeight: "bolder" })}>
             ₩58,000
@@ -159,7 +159,7 @@ export default function Home() {
             alignItems: "center",
           })}
         >
-          <img src="/tee-404.jpg" alt="tee-404" width={250} />
+          <img src="/tee-404.png" alt="tee-404" width={250} />
           <div className={css({ fontSize: 15 })}>404 hoodie black</div>
           <div className={css({ fontSize: 24, fontWeight: "bolder" })}>
             ₩58,000

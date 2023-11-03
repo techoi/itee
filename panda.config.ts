@@ -18,10 +18,6 @@ export default defineConfig({
           "0%": { transform: "translate(0,0)" },
           "100%": { transform: "translate(-2880px,0)" },
         },
-        rolling: {
-          "0%": { transform: "translate(0,0)" },
-          "100%": { transform: "translate(0,-360px)" },
-        },
       },
     },
     tokens: {
