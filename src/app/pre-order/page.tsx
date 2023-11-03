@@ -344,19 +344,21 @@ export default function Home() {
           zIndex: 99,
         })}
       >
-        <div
-          className={css({
-            padding: "16px 36px",
-            borderRadius: "26px",
-            backgroundColor: "black",
-            color: "white",
-            fontSize: 17,
-            fontWeight: "bold",
-            textAlign: "center",
-          })}
-        >
-          <div>사전 주문하기</div>
-        </div>
+        <Link href="https://forms.gle/9drgxxUBPcttQ4kX7">
+          <div
+            className={css({
+              padding: "16px 36px",
+              borderRadius: "26px",
+              backgroundColor: "black",
+              color: "white",
+              fontSize: 17,
+              fontWeight: "bold",
+              textAlign: "center",
+            })}
+          >
+            <div>사전 주문하기</div>
+          </div>
+        </Link>
       </div>
     </main>
   );
