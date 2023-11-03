@@ -8,7 +8,7 @@
 .fade-in {
   opcaity: 0;
   transition: opacity 0.2s linear;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-overflow: ellipsis;
   white-sanspace: nowrap;
 }
@@ -16,7 +16,7 @@
 .fade-out {
   opacity: 0;
   transition: opacity 0.2s linear;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-overflow: ellipsis;
   white-sanspace: nowrap;
 }
