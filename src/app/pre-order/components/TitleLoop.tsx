@@ -5,10 +5,23 @@ const FADE_IN_OUT_MS = 1000;
 const WORD_CHANGE_MS = FADE_IN_OUT_MS * 2;
 const TITLES = [
   "UX Designer",
+  "Graphic Designer",
+  "Motion Designer",
+  "Interaction Designer",
+  "Brand Designer",
+  "Industrial Designer",
   "FE Developer",
   "Server Developer",
+  "Software Engineer",
+  "iOS Developer",
+  "Android Developer",
   "Data Analyst",
+  "Data Scientist",
+  "Data Engineer",
+  "Devops",
+  "QA Engineer",
   "Product Owner",
+  "Product Manager",
 ];
 
 export default function TitleLoop() {

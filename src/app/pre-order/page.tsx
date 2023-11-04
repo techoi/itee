@@ -5,14 +5,14 @@ import { css } from "../../../styled-system/css";
 import TitleLoop from "./components/TitleLoop";
 
 const BANNERS = [
-  { image: "/itee/ny-403-2.jpg", title: "ITEE IN NEWYORK CITY" },
-  { image: "/itee/seoul-403-2.jpg", title: "ITEE IN SEOUL" },
-  { image: "/itee/ny-403-3.jpg", title: "ITEE IN NEWYORK CITY" },
-  { image: "/itee/ny-403.jpg", title: "ITEE IN NEWYORK CITY" },
-  { image: "/itee/seoul-403.jpg", title: "ITEE IN SEOUL" },
-  { image: "/itee/ny-404-2.jpg", title: "ITEE IN NEWYORK CITY" },
-  { image: "/itee/ny-404.jpg", title: "ITEE IN NEWYORK CITY" },
-  { image: "/itee/ny-500.jpg", title: "ITEE IN NEWYORK CITY" },
+  { image: "/tee/ny-200.png", title: "ITEE IN NEWYORK CITY" },
+  { image: "/tee/seoul-404.png", title: "ITEE IN SEOUL" },
+  { image: "/tee/ny-302.png", title: "ITEE IN NEWYORK CITY" },
+  { image: "/tee/ny-403.png", title: "ITEE IN NEWYORK CITY" },
+  { image: "/tee/seoul-200.png", title: "ITEE IN SEOUL" },
+  { image: "/tee/ny-404.png", title: "ITEE IN NEWYORK CITY" },
+  { image: "/tee/ny-500.png", title: "ITEE IN NEWYORK CITY" },
+  { image: "/tee/ny-503.png", title: "ITEE IN NEWYORK CITY" },
 ];
 
 export default function Home() {
@@ -49,12 +49,13 @@ export default function Home() {
             className={css({
               color: "white",
               fontWeight: "bold",
-              fontSize: 40,
-              md: { fontSize: 90 },
+              fontSize: 33,
+              letterSpacing: -1.5,
+              md: { fontSize: 85, letterSpacing: -3.4 },
               lineHeight: 1,
             })}
           >
-            Hello, I&rsquo;m Tee
+            Hello, I&rsquo;m a Tee
             <br />
             <div
               className={css({
@@ -107,9 +108,19 @@ export default function Home() {
             fontSize: 18,
             margin: "10px 0 24px",
             opacity: 0.5,
+            textAlign: "center",
           })}
         >
           출시일에 남겨주신 연락처로 알려드릴게요
+          <br />
+          <div
+            className={css({
+              fontWeight: "medium",
+              fontSize: 14,
+            })}
+          >
+            (2023.12 예정)
+          </div>
         </div>
         <Link
           href="https://forms.gle/9drgxxUBPcttQ4kX7"
@@ -122,7 +133,7 @@ export default function Home() {
           <div
             className={css({
               padding: "16px 36px",
-              borderRadius: "26px",
+              borderRadius: "30px",
               backgroundColor: "black",
               color: "white",
               fontSize: 17,
@@ -282,9 +293,19 @@ export default function Home() {
             fontSize: 18,
             margin: "10px 0 24px",
             opacity: 0.5,
+            textAlign: "center",
           })}
         >
           출시일에 남겨주신 연락처로 알려드릴게요
+          <br />
+          <div
+            className={css({
+              fontWeight: "medium",
+              fontSize: 14,
+            })}
+          >
+            (2023.12 예정)
+          </div>
         </div>
         <Link
           href="https://forms.gle/9drgxxUBPcttQ4kX7"
@@ -297,7 +318,7 @@ export default function Home() {
           <div
             className={css({
               padding: "16px 36px",
-              borderRadius: "26px",
+              borderRadius: "30px",
               backgroundColor: "black",
               color: "white",
               fontSize: 17,
@@ -350,7 +371,7 @@ export default function Home() {
           <div
             className={css({
               padding: "16px 36px",
-              borderRadius: "26px",
+              borderRadius: "30px",
               backgroundColor: "black",
               color: "white",
               fontSize: 17,
