@@ -42,7 +42,7 @@ export default function Home() {
         <div
           className={css({
             display: "flex",
-            padding: "20px 40px 30px",
+            padding: "20px 0 30px 20px",
             md: { padding: "20px 40px 90px" },
           })}
         >
@@ -50,7 +50,7 @@ export default function Home() {
             className={css({
               color: "white",
               fontWeight: "bold",
-              fontSize: 30,
+              fontSize: 33,
               letterSpacing: -1.5,
               md: { fontSize: 85, letterSpacing: -3.4 },
               lineHeight: 1,
@@ -64,7 +64,6 @@ export default function Home() {
                 position: "relative",
                 height: 50,
                 md: { height: 100 },
-                width: "80vw",
               })}
             >
               For

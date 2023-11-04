@@ -7,6 +7,7 @@ const TITLES = [
   "UX Designer",
   "Graphic Designer",
   "Motion Designer",
+  "Interaction Designer",
   "Brand Designer",
   "Industrial Designer",
   "FE Developer",
