@@ -42,14 +42,15 @@ export default function Home() {
         <div
           className={css({
             display: "flex",
-            padding: "20px 40px 90px",
+            padding: "20px 40px 30px",
+            md: { padding: "20px 40px 90px" },
           })}
         >
           <div
             className={css({
               color: "white",
               fontWeight: "bold",
-              fontSize: 33,
+              fontSize: 30,
               letterSpacing: -1.5,
               md: { fontSize: 85, letterSpacing: -3.4 },
               lineHeight: 1,
@@ -67,7 +68,7 @@ export default function Home() {
               })}
             >
               For
-              <div className={css({ width: 16, md: { width: 24 } })} />
+              <div className={css({ width: 8, md: { width: 24 } })} />
               <TitleLoop />
             </div>
           </div>
