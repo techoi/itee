@@ -175,7 +175,7 @@ export default function Home() {
       />
       <div
         className={css({
-          height: 380,
+          height: 385,
           position: "relative",
           overflow: "hidden",
         })}
@@ -186,7 +186,7 @@ export default function Home() {
             top: 0,
             left: 0,
             whiteSpace: "nowrap",
-            height: 380,
+            height: 385,
             animation: "bannerLoop 30s linear infinite",
             display: "flex",
           })}
@@ -199,7 +199,7 @@ export default function Home() {
                 flexDirection: "column",
                 alignItems: "center",
                 width: 360,
-                height: 380,
+                height: 385,
               })}
             >
               <img
@@ -226,7 +226,7 @@ export default function Home() {
                 flexDirection: "column",
                 alignItems: "center",
                 width: 360,
-                height: 380,
+                height: 385,
               })}
             >
               <img
