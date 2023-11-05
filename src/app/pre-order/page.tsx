@@ -363,7 +363,7 @@ export default function Home() {
           width: "100%",
           visibility: "visible",
           height: "auto",
-          md: { visibility: "none", height: 0 },
+          md: { visibility: "hidden" },
           zIndex: 99,
         })}
       >
