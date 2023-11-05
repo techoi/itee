@@ -60,7 +60,7 @@ export default function Home() {
               lineHeight: 1,
             })}
           >
-            Hello, I&rsquo;m a Tee
+            Hello, I&rsquo;m A Tee
             <br />
             <div
               className={css({
