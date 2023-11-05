@@ -160,7 +160,22 @@ export default function Home() {
         >
           <img src="/tee-403.png" alt="tee-403" width={250} />
           <div className={css({ fontSize: 15 })}>403 hoodie black</div>
-          <div className={css({ fontSize: 24, fontWeight: "bolder" })}>
+          <div
+            className={css({
+              fontSize: 24,
+              fontWeight: "bolder",
+              lineHeight: 1,
+            })}
+          >
+            <span
+              className={css({
+                color: "#d2d8de",
+                textDecoration: "line-through",
+              })}
+            >
+              ₩72,000
+            </span>
+            <br />
             ₩58,000
           </div>
         </div>
@@ -174,7 +189,22 @@ export default function Home() {
         >
           <img src="/tee-404.png" alt="tee-404" width={250} />
           <div className={css({ fontSize: 15 })}>404 hoodie black</div>
-          <div className={css({ fontSize: 24, fontWeight: "bolder" })}>
+          <div
+            className={css({
+              fontSize: 24,
+              fontWeight: "bolder",
+              lineHeight: 1,
+            })}
+          >
+            <span
+              className={css({
+                color: "#d2d8de",
+                textDecoration: "line-through",
+              })}
+            >
+              ₩72,000
+            </span>
+            <br />
             ₩58,000
           </div>
         </div>
