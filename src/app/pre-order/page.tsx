@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-
 import Link from "next/link";
 import { css } from "../../../styled-system/css";
 import TitleLoop from "./components/TitleLoop";
+import ViewTracker from "./components/ViewTracker";
+import ClickTracker from "./components/ClickTracker";
 
 const BANNERS = [
   { image: "/tee/ny-200.png", title: "ITEE IN NEWYORK CITY" },
@@ -18,6 +19,7 @@ const BANNERS = [
 export default function Home() {
   return (
     <main className={css({ fontFamily: "helvetica" })}>
+      <ViewTracker />
       <div className={css({ backgroundColor: "black" })}>
         <div className={css({ display: "flex", padding: "24px 26px" })}>
           <div
@@ -31,13 +33,15 @@ export default function Home() {
           >
             itee
           </div>
-          <Link href="https://instagram.com/itee.official">
-            <img
-              src="/instagram-logo-white.png"
-              alt="instagram"
-              className={css({ height: "24px !important" })}
-            />
-          </Link>
+          <ClickTracker button="instagram">
+            <Link href="https://instagram.com/itee.official">
+              <img
+                src="/instagram-logo-white.png"
+                alt="instagram"
+                className={css({ height: "24px !important" })}
+              />
+            </Link>
+          </ClickTracker>
         </div>
         <div
           className={css({
@@ -122,27 +126,29 @@ export default function Home() {
             (2023.12 예정)
           </div>
         </div>
-        <Link
-          href="https://forms.gle/9drgxxUBPcttQ4kX7"
-          className={css({
-            visibility: "hidden",
-            height: 0,
-            md: { visibility: "visible", height: "auto" },
-          })}
-        >
-          <div
+        <ClickTracker button="pre-order">
+          <Link
+            href="https://forms.gle/9drgxxUBPcttQ4kX7"
             className={css({
-              padding: "16px 36px",
-              borderRadius: "30px",
-              backgroundColor: "black",
-              color: "white",
-              fontSize: 17,
-              fontWeight: "bold",
+              visibility: "hidden",
+              height: 0,
+              md: { visibility: "visible", height: "auto" },
             })}
           >
-            <div>사전 주문하기</div>
-          </div>
-        </Link>
+            <div
+              className={css({
+                padding: "16px 36px",
+                borderRadius: "30px",
+                backgroundColor: "black",
+                color: "white",
+                fontSize: 17,
+                fontWeight: "bold",
+              })}
+            >
+              <div>사전 주문하기</div>
+            </div>
+          </Link>
+        </ClickTracker>
       </div>
       <div
         className={css({
@@ -337,27 +343,29 @@ export default function Home() {
             (2023.12 예정)
           </div>
         </div>
-        <Link
-          href="https://forms.gle/9drgxxUBPcttQ4kX7"
-          className={css({
-            visibility: "hidden",
-            height: 0,
-            md: { visibility: "visible", height: "auto" },
-          })}
-        >
-          <div
+        <ClickTracker button="pre-order">
+          <Link
+            href="https://forms.gle/9drgxxUBPcttQ4kX7"
             className={css({
-              padding: "16px 36px",
-              borderRadius: "30px",
-              backgroundColor: "black",
-              color: "white",
-              fontSize: 17,
-              fontWeight: "bold",
+              visibility: "hidden",
+              height: 0,
+              md: { visibility: "visible", height: "auto" },
             })}
           >
-            <div>사전 주문하기</div>
-          </div>
-        </Link>
+            <div
+              className={css({
+                padding: "16px 36px",
+                borderRadius: "30px",
+                backgroundColor: "black",
+                color: "white",
+                fontSize: 17,
+                fontWeight: "bold",
+              })}
+            >
+              <div>사전 주문하기</div>
+            </div>
+          </Link>
+        </ClickTracker>
       </div>
       <div
         className={css({
@@ -397,21 +405,23 @@ export default function Home() {
           zIndex: 99,
         })}
       >
-        <Link href="https://forms.gle/9drgxxUBPcttQ4kX7">
-          <div
-            className={css({
-              padding: "16px 36px",
-              borderRadius: "30px",
-              backgroundColor: "black",
-              color: "white",
-              fontSize: 17,
-              fontWeight: "bold",
-              textAlign: "center",
-            })}
-          >
-            <div>사전 주문하기</div>
-          </div>
-        </Link>
+        <ClickTracker button="pre-order">
+          <Link href="https://forms.gle/9drgxxUBPcttQ4kX7">
+            <div
+              className={css({
+                padding: "16px 36px",
+                borderRadius: "30px",
+                backgroundColor: "black",
+                color: "white",
+                fontSize: 17,
+                fontWeight: "bold",
+                textAlign: "center",
+              })}
+            >
+              <div>사전 주문하기</div>
+            </div>
+          </Link>
+        </ClickTracker>
       </div>
     </main>
   );
