@@ -180,7 +180,7 @@ export default function Home() {
         </div>
       </div>
       <img
-        src="/main.jpg"
+        src="/main.png"
         alt="main"
         className={css({ margin: "60px auto" })}
       />
