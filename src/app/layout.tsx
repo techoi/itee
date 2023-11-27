@@ -4,16 +4,16 @@ import Provider from "./provider";
 
 export const metadata: Metadata = {
   title: "itee",
-  description: "First Collection Pre-Order",
+  description: "First Collection, 404 Hoodie, 403 Hoodie, 503 Hoodie, Http Status Code Hoodie",
   openGraph: {
     title: "itee",
-    description: "First Collection Pre-Order",
+    description: "First Collection, 404 Hoodie, 403 Hoodie, 503 Hoodie, Http Status Code Hoodie",
     images: [
       {
         url: "https://itee.vercel.app/og-itee.png",
         width: 1200,
         height: 630,
-        alt: "itee | First Collection Pre-Order",
+        alt: "itee | First Collection",
       },
     ],
   },

@@ -94,7 +94,7 @@ export default function Home() {
             lineHeight: 1,
           })}
         >
-          2023 First Collection Pre-Order
+          2023 First Collection
         </div>
         <div
           className={css({
@@ -104,7 +104,7 @@ export default function Home() {
             lineHeight: 1.2,
           })}
         >
-          Coming soon
+          Grand Open
         </div>
         <div
           className={css({
@@ -115,7 +115,7 @@ export default function Home() {
             textAlign: "center",
           })}
         >
-          출시일에 남겨주신 연락처로 알려드릴게요
+          오픈 기념 할인 이벤트
           <br />
           <div
             className={css({
@@ -123,12 +123,12 @@ export default function Home() {
               fontSize: 14,
             })}
           >
-            (2023.12 예정)
+            (2023.12.31 까지)
           </div>
         </div>
-        <ClickTracker button="pre-order">
+        <ClickTracker button="order">
           <Link
-            href="https://forms.gle/9drgxxUBPcttQ4kX7"
+            href="https://marpple.shop/kr/itee"
             className={css({
               visibility: "hidden",
               height: 0,
@@ -145,7 +145,7 @@ export default function Home() {
                 fontWeight: "bold",
               })}
             >
-              <div>사전 주문하기</div>
+              <div>바로 주문하기</div>
             </div>
           </Link>
         </ClickTracker>
@@ -311,7 +311,7 @@ export default function Home() {
             lineHeight: 1,
           })}
         >
-          2023 First Collection Pre-Order
+          2023 First Collection
         </div>
         <div
           className={css({
@@ -321,7 +321,7 @@ export default function Home() {
             lineHeight: 1.2,
           })}
         >
-          Coming soon
+          Grand Open
         </div>
         <div
           className={css({
@@ -332,7 +332,7 @@ export default function Home() {
             textAlign: "center",
           })}
         >
-          출시일에 남겨주신 연락처로 알려드릴게요
+          오픈 기념 할인 이벤트
           <br />
           <div
             className={css({
@@ -340,12 +340,12 @@ export default function Home() {
               fontSize: 14,
             })}
           >
-            (2023.12 예정)
+            (2023.12.31 까지)
           </div>
         </div>
-        <ClickTracker button="pre-order">
+        <ClickTracker button="order">
           <Link
-            href="https://forms.gle/9drgxxUBPcttQ4kX7"
+            href="https://marpple.shop/kr/itee"
             className={css({
               visibility: "hidden",
               height: 0,
@@ -362,7 +362,7 @@ export default function Home() {
                 fontWeight: "bold",
               })}
             >
-              <div>사전 주문하기</div>
+              <div>바로 주문하기</div>
             </div>
           </Link>
         </ClickTracker>
@@ -405,8 +405,8 @@ export default function Home() {
           zIndex: 99,
         })}
       >
-        <ClickTracker button="pre-order">
-          <Link href="https://forms.gle/9drgxxUBPcttQ4kX7">
+        <ClickTracker button="order">
+          <Link href="https://marpple.shop/kr/itee">
             <div
               className={css({
                 padding: "16px 36px",
@@ -418,7 +418,7 @@ export default function Home() {
                 textAlign: "center",
               })}
             >
-              <div>사전 주문하기</div>
+              <div>바로 주문하기</div>
             </div>
           </Link>
         </ClickTracker>
