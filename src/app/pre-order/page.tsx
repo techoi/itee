@@ -157,7 +157,8 @@ export default function Home() {
           justifyContent: "center",
         })}
       >
-        <div
+        <Link
+          href="https://marpple.shop/kr/itee/products/15595251"
           className={css({
             display: "flex",
             flexDirection: "column",
@@ -182,11 +183,12 @@ export default function Home() {
               ₩72,000
             </span>
             <br />
-            ₩58,000
+            ₩42,000
           </div>
-        </div>
+        </Link>
         <div className={css({ width: 32 })} />
-        <div
+        <Link
+          href="https://marpple.shop/kr/itee/products/15791253"
           className={css({
             display: "flex",
             flexDirection: "column",
@@ -211,9 +213,9 @@ export default function Home() {
               ₩72,000
             </span>
             <br />
-            ₩58,000
+            ₩39,900
           </div>
-        </div>
+        </Link>
       </div>
       <img
         src="/main.png"
